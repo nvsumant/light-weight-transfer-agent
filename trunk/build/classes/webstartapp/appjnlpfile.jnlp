@@ -1,0 +1,24 @@
+<!--FNLP file that describe how appication should be launched-->
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="file:/media/Other/LightWeightTransferAgent/dist/" href="appjnlpfile.jnlp" spec="1.0+" >
+    <!--Informaton about application-->
+    <information>
+        <title>Light Weight Transfer Agent</title>
+        <vendor>Diluka</vendor>
+        <offline-allowed/>
+    </information>
+    <!--Security Details-->
+    <security>
+        <all-permissions/>
+    </security>
+    <!--Resources that requires-->
+    <resources>
+        <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="LightWeightTransferAgent.jar" main="true"/>
+        <jar href="lib/jftp.jar"/>
+        <jar href="lib/junit.jar"/>
+        <jar href="lib/log4j-1.2.16.jar"/>
+    </resources>
+    <application-desc main-class="lightweighttransferagent.Main">
+    </application-desc>
+</jnlp>
