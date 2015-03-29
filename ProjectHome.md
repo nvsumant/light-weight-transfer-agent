@@ -1,0 +1,1 @@
+This application is a Java web start application that provide upload, download facilities for user with GridFTP server.
